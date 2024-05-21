@@ -1,6 +1,7 @@
 import { Button } from "@/components/Button";
 import { libreFranklin, newsreader } from "@/constants/fonts";
 import Image from "next/image";
+import Link from "next/link";
 
 export default async function Home() {
   const response = await fetch("http://localhost:3000/api/python");
@@ -17,7 +18,9 @@ export default async function Home() {
           <br /> and crafting your own unique journey.
         </div>
         <div className="startHereBtn">
-          <Button title="Start Here" type="button" />
+          <Link href="/survey">
+            <Button title="Start Here" type="button" />
+          </Link>
         </div>
         <Image
           src="/landing-page-image.jpg"

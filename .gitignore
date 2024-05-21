@@ -36,3 +36,6 @@ next-env.d.ts
 
 # fastapi cache
 api/__pycache__/
+
+# vscode
+.vscode
