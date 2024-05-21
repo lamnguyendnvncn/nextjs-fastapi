@@ -21,15 +21,6 @@ body {
   background-color: #f9faef;
 }
 
-.nav-logo {
-  filter: invert(38%) sepia(24%) saturate(927%) hue-rotate(52deg)
-    brightness(85%) contrast(86%);
-}
-
-.nav-text {
-  font-family: var(--font-libreFranklin);
-}
-
 @layer utilities {
   .btn_white {
     @apply border-white bg-white px-8 py-3 text-green-50;
@@ -167,6 +158,20 @@ body {
 
   .startHereBtn {
     @apply flex justify-center items-center pt-5;
+  }
+
+  .outlineBtn {
+    @apply cursor-pointer py-2 px-7 rounded-full transition-all hover:signInBtn;
+    border: 1px solid #476730;
+  }
+
+  .nav-logo {
+    filter: invert(38%) sepia(24%) saturate(927%) hue-rotate(52deg)
+      brightness(85%) contrast(86%);
+  }
+
+  .nav-text {
+    font-family: var(--font-libreFranklin);
   }
 }
 
