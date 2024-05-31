@@ -8,13 +8,12 @@ function Home() {
       <div className="container container-grid">
         {/* Col 1 */}
         <div>
-          <h1>Let AI design your road trip!</h1>
+          <h1>Get Lost in Adventure, Never in Confusion.</h1>
           <p>
-            Transform your road trips with AI magic. Crafted routes. Curated
-            experiences. Crystal-clear adventures.
+            Get tailored recommendations on where to go, when, and how to make the most of your time and budget.
           </p>
           <a href="/preferences" className="btn">
-            Start the magic!
+            Start here!
           </a>
         </div>
         {/* Col 2 */}
